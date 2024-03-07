@@ -7,7 +7,8 @@ Netflix-icons similiar to the original are used
 used Bootstrap-icons
 # How to use
 clone this repository to your local machine.
-create public folder and in this add the .html file and put all images in assets folder. style.css file in a separate src folder
+create public folder and in this add the .html file and put all images in assets folder. 
+style.css file in a separate src folder.
 open the index.html file in the web browser to view the Netflix home page clone.
 
 # Screenshots
