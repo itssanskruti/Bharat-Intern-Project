@@ -1,4 +1,14 @@
-
+# PORTFOLIO
+This Project is created using only html and css.It aims to show the basic details for a portfolio website.
+# FEATURES
+it shows the about, experience, project and contact section.
+uses only html and css.
+used Bootstrap-icons.
+# How to use
+clone this repository to your local machine.
+create public folder and in this add the .html file and put all images in assets folder. 
+style.css file in a separate src folder.
+open the index.html file in the web browser to view the portfolio website.
 #screenshot
 ![Screenshot 2024-03-08 002427](https://github.com/itssanskruti/Bharat-Intern-Project/assets/160560874/07bb3b4a-1b4c-415a-9738-6695fd50fe4f)
 
