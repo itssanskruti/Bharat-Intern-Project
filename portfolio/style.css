@@ -1,0 +1,305 @@
+body{
+    background-color: rgb(43, 43, 43);
+    display: grid;
+    grid-template-rows: 10% 90%;
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    top: 0%;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 40px;
+    background-color: transparent;
+}
+.nav-links{
+    position: relative;
+    left: 0%;
+    display: flex;
+}
+.nav-links a{
+    text-decoration: none;
+    font-size: larger;
+    margin-right: 50px;
+}
+.name{
+    position: relative;
+    top: -7px;
+}
+.bootstrap{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: x-large;
+}
+.home-links{
+    position: relative;
+    top: 20px;
+}
+.home-links a{
+    color: black;
+}
+i{
+    margin-right: 25px;
+}
+.container{
+    align-items:center;
+    margin-bottom: 200px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.project-container{
+    width: 100%;
+    display: block;
+}
+.contact-container{
+    display: block;
+}
+.contact{
+    position: relative;
+    top: 100px;
+    margin-bottom: 200px;
+}
+a:hover{
+    color: yellow;
+}
+.p-c img:hover{
+    transform: scale(1.5);
+}
+.home-links a:hover{
+    background-color: black;
+}
+.area1:hover{
+    transform: scale(1.2);
+}
+.area2:hover{
+    transform: scale(1.2);
+}
+.area3:hover{
+    transform: scale(1.2);
+}
+form{
+    position: relative;
+    left: 600px;
+    top: -50px;
+    color: yellow;
+    display: grid;  
+}
+label{
+    margin-top: 20px;
+}
+input{
+    height: 50px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 10px 10px yellow;
+}
+button{
+    margin-top: 20px;
+    height: fit-content;
+    width: 80px;
+}
+a{
+    color: white;
+    font-size: large;
+}
+li{
+    list-style: none;
+}
+.home-links{
+    margin-top: 30px;
+}
+.home-links a{
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: rgb(248, 241, 36);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-right: -25%;
+}
+.image{
+    position: relative;
+    top: 90px;
+    left: 370px;
+    height: 85%;
+    width: 55%;
+    border-radius: 65% 65% 65% 65%;
+    overflow: hidden;
+    box-shadow: 0 12px 12px yellow;
+}
+.hoverimg{
+    display: none;
+    z-index: 1;
+    height: 20px;
+    width: 80px;
+}
+h6:hover + .hoverimg{
+    display: block;
+    margin-top: -30px;
+}
+.home-text{
+    margin-top: 100px;
+}
+.experience-container{
+    display: block;
+    height: 470px;
+    width: 100%;
+    margin-bottom: 180px;
+}
+.ex-c{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+.experience-left, .experience-middle, .experience-right{
+    position: relative;
+    top: 100px;
+    display: inline;
+    background-color: rgb(5, 5, 0);
+    border-radius: 25px;
+    box-shadow: 5px 5px yellow;
+    height: 320px;
+    width: 200px;
+    padding: 10px 20px;
+    margin-left: 40%;
+}
+.content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.about-area{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+.about-left img{
+    height: 270px;
+    width: 270px;
+    position: relative;
+    top: 100px;
+    left: 250px;
+    border-radius: 0px;
+    box-shadow: 20px 20px 20px yellow;
+    padding: 20px 20px yellow;
+}
+.area1 , .area2, .area3{
+    background-color: black;
+    height: 80%;
+    width: 50%;
+    position: relative;
+    top: 100px;
+    padding:20px 30px;
+    border-radius: 25px;
+    box-shadow: 10px 0px 10px yellow;
+}
+.area1{
+    margin-left: 20%;
+}
+.area2{
+    margin-left: 10%;
+}  
+.projects{
+    display: flex;
+    margin-top: 200px; 
+}
+.p-c{
+    height: 270px;
+    width: 270px;
+    display: grid;
+    grid-template-columns: 100%;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    margin-left: 150px;
+    margin-bottom: 280px;
+    background-color: black;
+    box-shadow: 10px 10px 10px rgb(254, 254, 77);
+}
+.p-c img{
+    height: 150px;
+    width: 270px;
+}
+.p-c a{
+    margin-top: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.p-c a:hover{
+    background-color: yellow;
+    color: black;
+}
+button:hover{
+    background-color: black;
+    color: yellow;
+}
+.heading{
+    position: relative;
+    top: 50px;
+    align-items: last baseline;
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Lucida Handwriting';
+    font-size: 50px;
+    text-shadow: 2px 2px 3px white;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px white;
+}
+h3{
+    color: yellow;
+    text-shadow: 1px 2px 2px black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+h4{
+    color: yellow;
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+}
+h5{
+    color: white;
+    font-size: 17.5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+h6{
+    color: white;
+    font-size: medium ;
+    margin-top: -5px;
+}
+p{
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: -10px;
+
+}
+.p{
+    color: white;
+    background-color: transparent;
+    font-size: medium;
+    position: relative;
+    top: 100px;
+    height: fit-content;
+    width: 80%;
+    font-family:serif;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: -10px;
+    text-align: center;
+    word-spacing: 5px;
+}
